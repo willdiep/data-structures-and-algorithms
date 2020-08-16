@@ -6,8 +6,6 @@ Output : Element found!
 Input : arr[] = {1, 3, 5, 7, 8, 9}
         x = 6
 Output : Element not found!
-
-
 */
 
 
@@ -15,8 +13,6 @@ Output : Element not found!
 Iterative Approach : In this iterative approach instead of recursion, we will use a while loop and the loop will run until it hits the base condition i.e start becomes greater than end.
 
 Time Complexity: O(logN).
-
-
 */
 
 let iterativeFunction = function (arr, x) { 
@@ -59,7 +55,6 @@ If greater, call the same function with ending index = middle-1 and repeat step 
 If smaller, call the same function with starting index = middle+1 and repeat step 1.
 
 Time Complexity: O(logN).
-
 */
 
 let recursiveFunction = function (arr, x, start, end) { 
